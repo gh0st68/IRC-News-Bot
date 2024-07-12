@@ -50,7 +50,7 @@ news_api = "https://newsapi.org/v2/top-headlines?country=us&apiKey=put_API_key_h
 To run the bot, execute the script using Python:
 
 ```bash
-python ircnewsbot2.0.py
+python3 ircnewsbot2.0.py
 ```
 
 ### Using Screen
