@@ -9,9 +9,9 @@ import traceback
 
 irc.client.ServerConnection.buffer_class = buffer.LenientDecodingLineBuffer
 
-server_address = "127.0.0.1"
+server_address = "irc.twistednet.org"
 port = 6697
-channel = "#Twisted"
+channel = "#dev"
 botnick = "n"
 
 news_api = "https://newsapi.org/v2/top-headlines?country=us&apiKey=put_API_key_here"
