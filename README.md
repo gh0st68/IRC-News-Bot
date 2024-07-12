@@ -10,6 +10,7 @@ VISIT US @ IRC.TWISTEDNET.ORG CHANNEL #DEV
   - [Prerequisites](#prerequisites)
   - [Libraries](#libraries)
 - [Configuration](#configuration)
+- [Getting the API Key](#getting-the-api-key)
 - [Running the Bot](#running-the-bot)
   - [Using Screen](#using-screen)
 - [License](#license)
@@ -45,6 +46,16 @@ botnick = "n"
 news_api = "https://newsapi.org/v2/top-headlines?country=us&apiKey=put_API_key_here"
 ```
 
+## Getting the API Key
+
+To fetch news headlines, you'll need an API key from [NewsAPI](https://newsapi.org/). Follow these steps:
+
+1. Visit [NewsAPI](https://newsapi.org/).
+2. Sign up for a free account.
+3. After verifying your email, log in to your account.
+4. Navigate to the API keys section of your dashboard.
+5. Copy the provided API key and replace `put_API_key_here` in the script with this key.
+
 ## Running the Bot
 
 To run the bot, execute the script using Python:
@@ -66,7 +77,7 @@ To run the bot in the background and keep it running after closing your terminal
 2. Run the bot within the screen session:
 
     ```bash
-    python ircnewsbot2.0.py
+    python3 ircnewsbot2.0.py
     ```
 
 3. Detach from the screen session to leave the bot running:
@@ -82,3 +93,4 @@ To run the bot in the background and keep it running after closing your terminal
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
