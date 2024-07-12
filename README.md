@@ -2,6 +2,8 @@
 
 This is an IRC bot that fetches and sends breaking news headlines from a news API to a specified IRC channel.
 
+VISIT US: IRC.TWISTEDNET.ORG CHANNEL #DEV
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -35,9 +37,9 @@ pip install irc requests jaraco.stream
 Edit the bot's configuration directly in the script to set the IRC server, port, channel, bot nickname, and news API URL. Replace `put_API_key_here` with your actual API key.
 
 ```python
-server_address = "127.0.0.1"
+server_address = "irc.twistednet.org"
 port = 6697
-channel = "#Twisted"
+channel = "#dev"
 botnick = "n"
 
 news_api = "https://newsapi.org/v2/top-headlines?country=us&apiKey=put_API_key_here"
@@ -48,7 +50,7 @@ news_api = "https://newsapi.org/v2/top-headlines?country=us&apiKey=put_API_key_h
 To run the bot, execute the script using Python:
 
 ```bash
-python irc_news_bot.py
+python ircnewsbot2.0.py
 ```
 
 ### Using Screen
@@ -64,7 +66,7 @@ To run the bot in the background and keep it running after closing your terminal
 2. Run the bot within the screen session:
 
     ```bash
-    python irc_news_bot.py
+    python ircnewsbot2.0.py
     ```
 
 3. Detach from the screen session to leave the bot running:
@@ -80,4 +82,6 @@ To run the bot in the background and keep it running after closing your terminal
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
 
